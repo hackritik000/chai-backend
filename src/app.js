@@ -22,7 +22,7 @@ import userRoute from "./routes/user.routes.js";
 
 // Route Declaration
 
-app.use("api/v1/users", userRoute);
+app.use("/api/v1/users", userRoute);
 
 // app.get("/api/v1/users", function (req, res) {
 //   console.log("/user request called");
